@@ -1,0 +1,46 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.844.0",
+    "axios": "^1.8.4",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "csv-parse": "^5.6.0",
+    "dotenv": "^16.5.0",
+    "escpos": "^3.0.0-alpha.6",
+    "escpos-serialport": "^3.0.0-alpha.4",
+    "escpos-usb": "^3.0.0-alpha.4",
+    "express": "^4.21.2",
+    "express-async-handler": "^1.2.0",
+    "express-list-endpoints": "^7.1.1",
+    "fast-json-stringify": "^6.0.1",
+    "firebase-admin": "^13.4.0",
+    "fuse.js": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "later": "^1.2.0",
+    "moment-timezone": "^0.5.48",
+    "mongoose": "^8.10.1",
+    "multer": "^1.4.5-lts.2",
+    "mysql2": "^3.14.3",
+    "node-cache": "^5.1.2",
+    "node-cron": "^4.2.1",
+    "p-limit": "^6.2.0",
+    "razorpay": "^2.9.6",
+    "sharp": "^0.34.2",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4"
+  }
+}
